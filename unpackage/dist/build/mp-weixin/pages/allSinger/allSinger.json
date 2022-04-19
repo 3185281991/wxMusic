@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "歌手分类",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 100,
+  "usingComponents": {}
+}

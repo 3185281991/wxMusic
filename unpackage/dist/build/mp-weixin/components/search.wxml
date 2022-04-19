@@ -1,0 +1,1 @@
+<view class="search data-v-e87bb07a"><input type="text" placeholder="{{text}}" data-event-opts="{{[['confirm',[['startSearch',['$event']]]],['input',[['__set_model',['','search','$event',[]]]]]]}}" value="{{search}}" bindconfirm="__e" bindinput="__e" class="data-v-e87bb07a"/></view>

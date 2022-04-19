@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新歌上映",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 100,
+  "usingComponents": {}
+}

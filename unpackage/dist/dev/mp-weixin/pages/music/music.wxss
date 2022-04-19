@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-dc03475c {
+  position: relative;
+  height: 100vh;
+  margin-top: 110rpx;
+}
+.search.data-v-dc03475c {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.banners.data-v-dc03475c {
+  width: 100vw;
+  height: 380rpx;
+  margin-top: 2px;
+}
+.banners swiper.data-v-dc03475c {
+  width: 100vw;
+  height: 380rpx;
+}
+.banners swiper swiper-item image.data-v-dc03475c {
+  width: 100%;
+  height: 100%;
+}
+.navicon.data-v-dc03475c {
+  width: 100%;
+  height: 120rpx;
+  overflow: hidden;
+  margin-top: 15rpx;
+}
+.navicon .iconList.data-v-dc03475c {
+  width: 20%;
+  float: left;
+  height: 100%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.navicon .iconList text.data-v-dc03475c:nth-child(1) {
+  font-size: 65rpx;
+  padding-top: 10rpx;
+  color: #aaffff;
+}
+.navicon .iconList text.data-v-dc03475c:nth-child(2) {
+  font-size: 30rpx;
+  padding-top: 5rpx;
+}
+.new.data-v-dc03475c {
+  width: 100vw;
+  height: 620rpx;
+  margin-top: 10rpx;
+}
+.new .top.data-v-dc03475c {
+  width: 100%;
+  height: 12%;
+}
+.new .top text.data-v-dc03475c {
+  display: inline-block;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.new .top text.data-v-dc03475c:nth-child(3) {
+  float: right;
+  padding-right: 55rpx;
+  font-size: 30rpx;
+}
+.new .top .isActive.data-v-dc03475c {
+  border-bottom: 10rpx solid aqua;
+}
+.new swiper.data-v-dc03475c {
+  width: 100vw;
+  height: 86%;
+  margin-top: 10rpx;
+}
+.new swiper swiper-item.data-v-dc03475c {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.new swiper swiper-item .swiper-item.data-v-dc03475c {
+  width: 98%;
+  margin: 0 1%;
+  height: 33%;
+}
+.new swiper swiper-item .swiper-item .left.data-v-dc03475c {
+  float: left;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.new swiper swiper-item .swiper-item .left image.data-v-dc03475c {
+  width: 62%;
+  height: 88%;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+}
+.new swiper swiper-item .swiper-item .right.data-v-dc03475c {
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.new swiper swiper-item .swiper-item .right text.data-v-dc03475c {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.new swiper swiper-item .swiper-item .right text.data-v-dc03475c:nth-child(1) {
+  margin-top: 35rpx;
+  font-size: 35rpx;
+}
+.new swiper swiper-item .swiper-item .right text.data-v-dc03475c:nth-child(2) {
+  margin-top: 15rpx;
+  font-size: 30rpx;
+}
+.paihang.data-v-dc03475c {
+  width: 100vw;
+  height: 380rpx;
+  margin-top: 10rpx;
+  background: linear-gradient(110.13149deg, #e2ebef 5.53385%, #d0dae0 96.67969%);
+}
+.paihang .top.data-v-dc03475c {
+  width: 100%;
+  height: 12%;
+}
+.paihang .top text.data-v-dc03475c {
+  display: inline-block;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.paihang .top text.data-v-dc03475c:last-child {
+  float: right;
+  margin-right: 20rpx;
+}
+.paihang .info.data-v-dc03475c {
+  width: 100%;
+  height: 86%;
+}
+.paihang .info swiper.data-v-dc03475c {
+  width: 100vw;
+  height: 100%;
+  margin-top: 10rpx;
+}
+.paihang .info swiper swiper-item.data-v-dc03475c {
+  width: 100%;
+  height: 100%;
+}
+.paihang .info swiper swiper-item .left.data-v-dc03475c {
+  float: left;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.paihang .info swiper swiper-item .left image.data-v-dc03475c {
+  width: 77%;
+  height: 75%;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+}
+.paihang .info swiper swiper-item .right.data-v-dc03475c {
+  float: left;
+  width: 58%;
+  height: 100%;
+}
+.paihang .info swiper swiper-item .right view.data-v-dc03475c:nth-child(1) {
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 35rpx;
+}
+.paihang .info swiper swiper-item .right view:nth-child(1) text.data-v-dc03475c:nth-child(1) {
+  font-weight: bold;
+}
+.paihang .info swiper swiper-item .right view:nth-child(1) text.data-v-dc03475c:nth-child(2) {
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
+.paihang .info swiper swiper-item .right .list.data-v-dc03475c {
+  margin-top: 10rpx;
+  width: 100%;
+}
+.paihang .info swiper swiper-item .right .list text.data-v-dc03475c {
+  display: inline-block;
+  font-size: 30rpx;
+}
+.menuw.data-v-dc03475c {
+  width: 100%;
+  margin-top: 10rpx;
+}
+.menuw .top.data-v-dc03475c {
+  width: 100%;
+  height: 70rpx;
+}
+.menuw .top text.data-v-dc03475c {
+  display: inline-block;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.menuw .top text.data-v-dc03475c:last-child {
+  float: right;
+  margin-right: 20rpx;
+}
+.menuw .item.data-v-dc03475c {
+  margin-top: 10rpx;
+  width: 100vw;
+  height: 230rpx;
+}
+.menuw .item .left.data-v-dc03475c {
+  float: left;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuw .item .left image.data-v-dc03475c {
+  width: 62%;
+  height: 88%;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+}
+.menuw .item .right.data-v-dc03475c {
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menuw .item .right .ti.data-v-dc03475c {
+  margin-top: 36rpx;
+  width: 100%;
+  font-size: 35rpx;
+  text-align: center;
+}
+.menuw .item .right .tags.data-v-dc03475c {
+  margin-top: 10rpx;
+  width: 100%;
+  height: 20%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+.menuw .item .right .tags text.data-v-dc03475c {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+

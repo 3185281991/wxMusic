@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "音乐馆",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search": "/components/search"
+  }
+}

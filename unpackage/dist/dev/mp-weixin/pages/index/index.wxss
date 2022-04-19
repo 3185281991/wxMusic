@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-57280228 {
+  position: relative;
+  height: 100vh;
+  margin-top: 110rpx;
+}
+.content .search.data-v-57280228 {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.content .banners.data-v-57280228 {
+  width: 100vw;
+  height: 380rpx;
+  margin-top: 2px;
+}
+.content .banners swiper.data-v-57280228 {
+  width: 100vw;
+  height: 380rpx;
+}
+.content .banners swiper swiper-item image.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+}
+.content .menu.data-v-57280228 {
+  margin-top: 10rpx;
+  width: 100%;
+  height: 460rpx;
+  overflow: hidden;
+}
+.content .menu .title.data-v-57280228 {
+  width: 100%;
+  height: 12%;
+}
+.content .menu .title text.data-v-57280228 {
+  display: inline-block;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  line-height: 54rpx;
+}
+.content .menu swiper.data-v-57280228 {
+  margin-top: 15rpx;
+  width: 100%;
+  height: 85%;
+}
+.content .menu swiper swiper-item.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.content .menu swiper swiper-item .List.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .menu swiper swiper-item .List .item.data-v-57280228 {
+  margin-left: 5rpx;
+  width: 24%;
+  height: 186rpx;
+}
+.content .menu swiper swiper-item .List .item image.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.content .new.data-v-57280228 {
+  width: 100%;
+}
+.content .new .title.data-v-57280228 {
+  width: 100%;
+  height: 12%;
+}
+.content .new .title text.data-v-57280228 {
+  display: inline-block;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.content .new swiper.data-v-57280228 {
+  margin-top: 10rpx;
+  width: 100%;
+  height: 200rpx;
+}
+.content .new swiper swiper-item.data-v-57280228 {
+  display: flex;
+  width: 98%;
+  margin-left: 10rpx;
+  height: 280rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .new swiper swiper-item .item.data-v-57280228 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.content .new swiper swiper-item .item image.data-v-57280228 {
+  width: 50%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.content .new swiper swiper-item .item .info.data-v-57280228 {
+  width: 50%;
+}
+.content .new swiper swiper-item .item .info view.data-v-57280228 {
+  width: 100%;
+  text-align: center;
+  margin-top: 40rpx;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 30rpx;
+}
+.content .personalizedMv.data-v-57280228 {
+  width: 100%;
+  margin-top: 10rpx;
+}
+.content .personalizedMv .title.data-v-57280228 {
+  width: 100%;
+  height: 12%;
+}
+.content .personalizedMv .title text.data-v-57280228 {
+  display: inline-block;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.content .personalizedMv .con.data-v-57280228 {
+  width: 100%;
+}
+.content .personalizedMv .con .item.data-v-57280228 {
+  margin: 10rpx auto;
+  width: 95%;
+  height: 160rpx;
+  display: flex;
+  position: relative;
+}
+.content .personalizedMv .con .item image.data-v-57280228 {
+  width: 40%;
+  height: 100%;
+}
+.content .personalizedMv .con .item .text.data-v-57280228 {
+  width: 58%;
+  height: 160rpx;
+  line-height: 80rpx;
+  margin-left: 1%;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
+.content .personalizedMv .con .item .count.data-v-57280228 {
+  position: absolute;
+  left: 110rpx;
+  top: 55rpx;
+}
+.content .personalizedMv .con .item .count text.data-v-57280228 {
+  color: white;
+  font-size: 25rpx;
+}
+.content .personalizedMv .con .item .count .icon-bofangqi-bofangshu.data-v-57280228 {
+  font-size: 35rpx;
+}
+.content .last.data-v-57280228 {
+  margin-bottom: 130rpx;
+}
+
