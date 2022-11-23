@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "精选歌单",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 100,
+  "usingComponents": {}
+}

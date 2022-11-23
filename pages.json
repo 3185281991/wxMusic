@@ -1,0 +1,132 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		}, {
+			"path": "pages/music/music",
+			"style": {
+				"navigationBarTitleText": "音乐馆",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		}, {
+			"path": "pages/bofang/bofang",
+			"style": {
+				"navigationBarTitleText": "视频播放",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		}, {
+			"path": "pages/player/player",
+			"style": {
+				"navigationBarTitleText": "播放器",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/gedan/gedan",
+			"style": {
+				"navigationBarTitleText": "歌单详情",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		},
+		{
+			"path": "pages/newSE/newSE",
+			"style": {
+				"navigationBarTitleText": "新歌上映",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		},
+		{
+			"path": "pages/allGd/allGd",
+			"style": {
+				"navigationBarTitleText": "精选歌单",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		},
+		{
+			"path": "pages/track/track",
+			"style": {
+				"navigationBarTitleText": "所有榜单",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		,
+		{
+			"path": "pages/allSinger/allSinger",
+			"style": {
+				"navigationBarTitleText": "歌手分类",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		},
+		{
+			"path": "pages/singInfo/singInfo",
+			"style": {
+				"navigationBarTitleText": "歌手详情",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+
+		},
+		{
+			"path": "pages/webView/webView",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#007AFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabimg/yinlemusic214(2).png",
+				"selectedIconPath": "static/img/tabimg/yinlemusic214.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/music/music",
+				"iconPath": "static/img/tabimg/yingyong(2).png",
+				"selectedIconPath": "static/img/tabimg/yingyong.png",
+				"text": "音乐馆"
+			}
+			]
+	}
+
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "play": "/components/play",
+    "search": "/components/search"
+  }
+}
