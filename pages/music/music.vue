@@ -36,11 +36,15 @@
 				<text @click="jumToSe">更多歌曲 ></text>
 			</view>
 			<!-- 新歌 -->
-			<swiper v-if="isShow">
+			<swiper v-show="isShow">
 				<swiper-item v-for="(item,index) in newSong" :key="index">
 					<view class="swiper-item" v-for="item1 in item" :key="item1.name" @click="bofang(item1)">
 						<view class="left">
-							<image :src="item1.album.picUrl" mode=""></image>
+							<view class="image">
+									<easy-loadimage :scroll-top="scrollTop" :image-src="item1.album.picUrl" loadingMode="spin-circle">
+							</easy-loadimage>
+							</view>
+						
 						</view>
 						<view class="right">
 							<text>{{item1.album.name}}</text>
@@ -50,11 +54,15 @@
 				</swiper-item>
 			</swiper>
 			<!-- 新碟 -->
-			<swiper v-if="!isShow">
+			<swiper v-show="!isShow">
 				<swiper-item v-for="(item,index) in newAblum" :key="index">
 					<view class="swiper-item" v-for="item1 in item" :key="item1.name" @click="getEditor(item1)">
 						<view class="left">
-							<image :src="item1.picUrl" mode=""></image>
+							<view class="image">
+								<easy-loadimage :scroll-top="scrollTop" :image-src="item1.picUrl" loadingMode="spin-circle">
+							</easy-loadimage>
+							</view>
+							
 						</view>
 						<view class="right">
 							<text>{{item1.artist.name}}</text>
@@ -109,6 +117,7 @@
 </template>
 
 <script>
+		import easyLoadimage from '@/components/easy-loadimage/easy-loadimage.vue'
 	import {
 		menuW,
 		privatecontent,
@@ -130,6 +139,7 @@
 	export default {
 		data() {
 			return {
+						scrollTop:0,
 				privateList: [],
 				newAblum: [],
 				newSong: [],
@@ -140,7 +150,11 @@
 			}
 		},
 		components: {
-			search
+			search,easyLoadimage
+		},
+		onPageScroll({scrollTop}) {
+		    // 传入scrollTop值并触发所有easy-loadimage组件下的滚动监听事件
+		    this.scrollTop = scrollTop;
 		},
 		onLoad() {
 			this.getprivatecontent();
@@ -391,28 +405,28 @@
 
 		swiper {
 			width: 100vw;
-			height: 86%;
+			height: 533.2rpx;
 			margin-top: 10rpx;
 
 			swiper-item {
-				width: 100%;
-				height: 100%;
+				width: 100vw;
+				height: 533.2rpx;
 				display: flex;
 				flex-direction: column;
 
 				.swiper-item {
-					width: 98%;
+					width: 98vw;
 					margin: 0 1%;
-					height: 33%;
+					height: 176rpx;
 
 					.left {
 						float: left;
 						width: 35%;
-						height: 100%;
+						height: 176rpx;
 						display: flex;
 						align-items: center;
 
-						image {
+						.image {
 							width: 62%;
 							height: 88%;
 							border-radius: 20rpx;
