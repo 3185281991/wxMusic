@@ -14,7 +14,13 @@
 			<scroll-view :scroll-top="scrollTop" scroll-y="true" class="scroll-Y" @scrolltoupper="upper"
 				@scrolltolower="lower" @scroll="scroll">
 				<view class="item" v-for="(item,indexs) in singList" :key="indexs" @click="jumpTosingInfo(item.id)">
-					<image :src="item.picUrl" mode=""></image>
+					<view class="img">
+						<easy-loadimage 
+					    :scroll-top="scrollTop"
+					    :image-src="item.picUrl"
+						loadingMode="spin-circle"></easy-loadimage>
+					</view>
+					
 					<text>{{item.name}}</text>
 				</view>
 			</scroll-view>
@@ -25,12 +31,14 @@
 </template>
 
 <script>
+	import easyLoadimage from '@/components/easy-loadimage/easy-loadimage.vue'
 	import {
 		singlist
 	} from '../../network/singer.js';
 	export default {
 		data() {
 			return {
+				scrollTop:0,
 				area: [{
 					type: '全部',
 					index: -1
@@ -76,11 +84,16 @@
 				nameIndex: 0
 			}
 		},
+		components:{easyLoadimage},
 		onReachBottom() {
 			this.moreSinger(this.areaF, this.typeF)
 		},
 		onLoad() {
 			this.gethotsinglist();
+		},
+		onPageScroll({scrollTop}) {
+		    // 传入scrollTop值并触发所有easy-loadimage组件下的滚动监听事件
+		    this.scrollTop = scrollTop;
 		},
 		methods: {
 			//歌手分类,默认热门20
@@ -186,10 +199,9 @@
 			width: 100%;
 			height: 150rpx;
 
-			image {
+			.img {
 				width: 117rpx;
 				height: 125rpx;
-				border-radius: 50%;
 				float: left;
 				margin-left: 32rpx;
 			}
